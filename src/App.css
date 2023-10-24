@@ -10,6 +10,7 @@
 
   width: 70%;
   position: fixed;
+  overflow: scroll;
   top: 0;
   left: 0;
   bottom: 0;

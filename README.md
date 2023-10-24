@@ -1,27 +1,24 @@
-# Web Development Project 5 - *Recipe Dash*
+# Web Development Project 6 - *Recipe Dashboard*
 
-Submitted by: **Sean Craig**
+Submitted by: **Sean Criag**
 
-This web app: **This website is meant to access the spoonacular API to grab recipies and allow users to enter queries to search for recipes. With those recipes the site will display data like the mean of calories/servings for that food item as well as the mean for sugar and protein.**
+This web app: **This site is simple, loading 8 recies per query and displaying some simple stats about the queries like avg. time to cook and avg. num of ingredients. There is also displayed images from Spoonacular API's website along with links to each food item. At the bottom there's a button taking you to the About Me page. There is also a page for if you put in an invalid link.**
 
-Time spent: **5** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [✓] **The list displays a list of data fetched using an API call**
-- [✓] **Data uses the useEffect React hook and async/await syntax**
-- [ ] **The app dashboard includes at least three summary statistics about the data such as**
-  - [ ] *insert details*
-- [✓] **A search bar allows the user to search for an item in the fetched data**
-- [ ] **Multiple different filters (2+) allow the user to filter items in the database by specified categories**
+- [ ] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
+- [ ] **Clicking on an item in the list view displays more details about it**
+- [ ] **Clicking on an item has a direct, unique link to that item's detail view page**
+
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
+- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
+- [ ] The site allows users to toggle between different data visualizations
 
 The following **additional** features are implemented:
 
@@ -29,16 +26,16 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of what I have to show as of 10/16/2023:
-https://imgur.com/a/bZ90oKU
 
-<img src='https://imgur.com/a/bZ90oKU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows.
+
 
 ## Notes
 
-I underestimated the amount of time I needed to get at least the required features implemented. I spent a good amount of time trying to figure out why useEffect with [] for parameters was being called twice, and so in testing I was depleeting my limited number of free API calls pretty fast. As a result of this I wasn't able to finish everything I wanted to though my pace was starting to pick up. You can see in my walkthrough video how the console exposes me for having run out of API calls. Another thing that was unexpected was that different API querries would give me different objects with different data keys to access. I guess it never occured to me that this might happen. This forced me to revamp my approach 2-3 times. CSS is frustrating as always but ChatGPT is very helpful, though there's nothing I can do about having no more API calls. Frustrating!
+With time and limited API calls I had I tried to do my best at getting to a point where I would be able to put charts in, but that already was tough.
 
 ## License
 
